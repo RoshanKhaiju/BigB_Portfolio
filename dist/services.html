@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <!-- Bootstrap CSS file -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="../scss/style.css">
+    <link rel="stylesheet" href="../sticky.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar" id="navbar">
+        <a href="index.html" class="navbar-brand">
+            <img src="../assets/logo.png" alt="big brackets">
+        </a>
+        <div class="title">
+            <p>Services.</p>
+        </div>
+        <div class="nav-rt">
+            <div class="button">
+                <a class="nav-item nav-link" onclick="openEstimate()">Estimate a project</a>
+            </div>
+            <div class="toogle">
+                <span class="menu-icon" onclick="openMenu()">&#9776;</span>
+            </div>   
+        </div>
+</nav>
+
+<div class="menu-container" id="navbar2">
+
+    <nav class="navbar" >
+        <a href="index.html" class="navbar-brand">
+            <img src="../assets/logo.png"alt="big brackets">
+        </a>
+        <div class="nav-lf">
+            <a href="projects.html">Projects</a>
+            <a href="services.html">Services</a>
+            <a href="blog.html">Blog</a>
+            <a href="about_us.html">About us</a>
+            <a href="careers.html">Careers</a>
+            <a href="contact.html">Contact</a>
+        </div>
+            <div class="nav-rt">
+                <div class="button">
+                    <a class="nav-item nav-link" onclick="openEstimate()">Estimate a project</a>
+                </div>
+                <div class="closebtn" onclick="closeMenu()" >&times;</div>
+            </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid jumbotron_1">
+        <div class="container">
+            <p class="display_bold"><a href="transforming_business.html">Building<span> brands</span>.</a></p>
+            <p class="display_bold"><a href="transforming_business.html"><span>Creating </span>products.</a></p>
+            <p class="display_bold"><a href="transforming_business.html">Transforming<span> business</span>.</a></p>
+            <p class="display_normal"><a href="services.html">See all services &nbsp; <img src="../assets/Arrow 4.svg" alt=""> </a></p>
+            <p class="display_normal"><a href="blog.html">New to blog: The Future of eCommerce - Everything as a Service.</a></p>
+        </div>
+    </div>
+
+</div>
+
+<div class="estimate_project_container" id="estimate_project_container">
+    <nav class="navbar" >
+
+        <div class="nav-lf">
+        </div>
+            <div class="nav-rt">
+                
+                <div class="closebtn" onclick="closeEstimate()" >&times;</div>
+            </div>
+    </nav>
+
+    <div class="estimate_project_content">
+        <p class="content_bold">Send us a message.</p>
+        <p class="content_normal">We will answer within 24 hours.</p>
+
+        <form action="#" method="POST">
+            <div class="form-group">
+                <input type="tel" name="" id="inputPhone" placeholder="Phone" required>
+            </div>
+            <div class="form-group">
+                <input type="eail" name="" id="inputEmail" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="inputMessage" placeholder="Message">
+            </div>
+            <button type="submit">Send</button>
+        </form>
+
+    </div>
+
+</div>
+
+    <div class="jumbotron jumbotron-fluid jumbotron_1 services">
+        <div class="container">
+            <p class="display_bold">We help to succeed in <br>
+                the digital world.</p>
+            <p class="display_normal">We create unified consumer experience: <br>
+                from TV ad, social media content, to <br>
+                website or chatbot on a mobile device.</p>
+        </div>
+    </div>
+
+    <div class="media_container">
+
+        <div class="media_containers">
+            <p class="display_bold">Building Brands.</p>
+
+            <div class="media media_2">
+                <div class="media-body lf">
+                    <p>Communication & Design</p>
+                </div>
+                <div class="media-body rt">
+                    <p>Integrated Campaigns <br>
+                        <a href="#">Social Storytelling</a> <br>
+                        <a href="#">Branding & Visual Identity</a> <br>
+                        Production & Motion <br>
+                        Client Strategy <br>
+                        Creative Workshops</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="media_containers">
+            <p class="display_bold">Creating products.</p>
+
+            <div class="media media_2">
+                <div class="media-body lf">
+                    <p>Product Design</p>
+                </div>
+                <div class="media-body rt">
+                    <p><a href="#">Design-Driven Innovation</a> <br>
+                        Product Strategy & Ideation <br>
+                        <a href="#">Product Design Sprints</a> <br>
+                        <a href="#">UX & Visual Design</a> <br>
+                        <a href="#">Branding & Visual Identity</a></p>
+                </div>
+            </div>
+
+            <div class="media media_2">
+                <div class="media-body lf">
+                    <p>Development & Platforms</p>
+                </div>
+                <div class="media-body rt">
+                    <p>Website Development <br>
+                        Custom Development <br>
+                        <a href="#"> Agile Development</a> <br>
+                        Development Consulting <br>
+                        <a href="#"> Conversion Rate Optimization</a> <br>
+                        <a href="#"> Marketing Automation</a> <br>
+                        Drupal 8 Distribution</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="media_containers">
+            <p class="display_bold">Transforming business.</p>
+
+            <div class="media media_2">
+                <div class="media-body lf">
+                    <p>Digital Ventures</p>
+                </div>
+                <div class="media-body rt">
+                    <p>Scouting <br>
+                        Proof-of-Concepts <br>
+                        Startup Building <br>
+                        <a href="#">Find out more on K2DV.pl</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="media_containers">
+            <p class="display_bold">Services offered by K2 <br>
+                Internet Group.</p>
+
+            <div class="media media_2">
+                <div class="media-body lf">
+                    <p>Bots.AI</p>
+                </div>
+                <div class="media-body rt">
+                    <p>AI-Powered Customer Service <br>
+                        Google Assistant for Business <br>
+                        <a href="#">Find out more on K2Bots.AI</a></p>
+                </div>
+            </div>
+
+            <div class="media media_2">
+                <div class="media-body lf">
+                    <p>K2 Precise</p>
+                </div>
+                <div class="media-body rt">
+                    <p>Precise Marketing <br>
+                        Web Analytics <br>
+                        Data Management Platform <br>
+                        Marketing Automation <br>
+                        SEO & Content Marketing <br>
+                        Performance & Affiliation <br>
+                        TV & Multiscreen <br>
+                        <a href="#">Find out more on K2Precise.pl</a></p>
+                </div>
+            </div>
+
+            <div class="media media_2">
+                <div class="media-body lf">
+                    <p>OKTAWAVE</p>
+                </div>
+                <div class="media-body rt">
+                    <p>We implement and maintain the cloud using our own, Poland-based and certified infrastructure, as
+                        well as global solutions.</p>
+                </div>
+            </div>
+
+            <div class="media media_2">
+                <div class="media-body lf">
+                    <p>Fabrity</p>
+                </div>
+                <div class="media-body rt">
+                    <p>We provide solutions for IT sector. We develop software, implement and integrate solutions, and
+                        advise during execution of IT projects.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="row">
+            <div class="col-sm-5 col-md-3 item">
+                <ul>
+                    <li><a href="#">Group</a></li>
+                    <li><a href="#">Investor</a></li>
+                    <li><a href="#">Share price on WSE</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-5 col-md-3 item">
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">YouTube</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 item text">
+                <ul>
+                    <li><a href="#">PL</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JS files: jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- custom js files -->
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
